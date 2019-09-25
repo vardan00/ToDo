@@ -2,7 +2,11 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+<<<<<<< HEAD
    entry: './main.jsx',
+=======
+   entry: './main.js',
+>>>>>>> 66ae13e... Skelton app structure created
    output: {
       path: path.join(__dirname, '/bundle'),
       filename: 'index_bundle.js'
